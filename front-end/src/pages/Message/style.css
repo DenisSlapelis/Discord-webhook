@@ -1,0 +1,29 @@
+form {
+    color: #fff;
+}
+
+.msgForm{
+    max-width: 500px !important;
+    border: groove;
+    border-radius: 10px;
+}
+
+label#thumbnail{
+    border: 1px dashed #ddd;
+    border-radius: 10px;
+    background-size: cover;
+    cursor: pointer;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #393B40;
+}
+
+label#thumbnail img{
+    width: 45px;
+}
+
+#avatar{
+    display: none;
+}
