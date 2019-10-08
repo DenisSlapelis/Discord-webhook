@@ -13,3 +13,16 @@ html body{
   background-color: #202225;
   min-height: 100%;
 }
+
+.btn-primary {
+  background-color: #808de2;
+  border: #808de2;
+}
+
+.btn-primary:hover {
+  background-color: #49518a;
+}
+
+.hide {
+  display: none;
+}

@@ -24,6 +24,13 @@ label#thumbnail img{
     width: 45px;
 }
 
-#avatar{
+label#thumbnail.has-thumbnail {
+    border: 0
+}
+label#thumbnail.has-thumbnail img{
+    display: none;
+}
+
+label#thumbnail input{
     display: none;
 }

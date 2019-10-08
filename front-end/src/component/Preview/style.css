@@ -1,0 +1,36 @@
+.preview {
+    background-color: #36393f;
+    border: 2px dashed #ddd;
+    border-radius: 20px;
+    max-width: 450px;
+}
+
+.preview div #avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: no-repeat center;
+    background-size: cover; 
+}
+
+.preview div .username{
+    color: #fff;
+    font-weight: 500;
+}
+
+.preview div .msg{
+    color: #dcddde;
+    font-weight: 400;
+    line-height: 1.375;
+}
+
+.preview div .tag{
+    position: relative;
+    background: #7289da;
+    color: #fff;
+    height: fit-content;
+    font-size: .625em;
+    font-weight: 500;
+    border-radius: 3px;
+}
